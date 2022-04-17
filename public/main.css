@@ -1,0 +1,27 @@
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./components/app.scss ***!
+  \**************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./components/app.scss (1) ***!
+  \******************************************************************************************************************/
+body {
+  font-family: Roboto;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  height: 100vh;
+  background-color: #818181;
+}
+.container .header {
+  padding: 15px 20px;
+  background-color: #ee3800;
+}
+.container .header h1 {
+  color: rgb(0, 31, 204);
+}
